@@ -12,8 +12,8 @@ IMAGE_REGISTRY=ghcr.io REGISTRY_NAMESPACE=scaedufax IMAGE_TAG=v0.6.0-legacy make
 IMAGE_REGISTRY=ghcr.io REGISTRY_NAMESPACE=scaedufax IMAGE_TAG=v0.6.0-legacy make docker-push
 
 # on gh-pages branch merge current changes etc.
-helm package deploy/charts/ceph-csi-operator charts/
-helm package deploy/charts/ceph-csi-drivers charts/
+helm package deploy/charts/ceph-csi-operator -d charts/
+helm package deploy/charts/ceph-csi-drivers -d charts/
 helm repo index charts/ --url https://scaedufax.github.io/ceph-csi-operator/charts
 ```
 
