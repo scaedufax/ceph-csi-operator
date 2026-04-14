@@ -5,6 +5,13 @@
 [![Mergify Status](https://img.shields.io/endpoint.svg?url=https://api.mergify.com/v1/badges/ceph/ceph-csi-operator&style=flat)](https://mergify.com)
 ![Version](https://img.shields.io/github/v/release/ceph/ceph-csi-operator)
 
+## On Updates
+
+```
+IMAGE_REGISTRY=ghcr.io REGISTRY_NAMESPACE=scaedufax IMAGE_TAG=v0.6.0-legacy make docker-build
+IMAGE_REGISTRY=ghcr.io REGISTRY_NAMESPACE=scaedufax IMAGE_TAG=v0.6.0-legacy make docker-push
+```
+
 ## Table of Contents
 
 - [Ceph CSI Operator](#ceph-csi-operator)
