@@ -3,7 +3,7 @@ entries:
   ceph-csi-drivers:
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2026-04-14T15:09:15.826552048+02:00"
+    created: "2026-04-16T11:46:07.900559182+02:00"
     description: A Helm chart for Ceph CSI drivers
     digest: c1c2495691cecbf62e391a6801024f706cdaddc4d73e6ff47f5ed5693fabbed6
     name: ceph-csi-drivers
@@ -11,30 +11,10 @@ entries:
     urls:
     - https://scaedufax.github.io/ceph-csi-operator/charts/ceph-csi-drivers-0.6.0+legacy.tgz
     version: 0.6.0+legacy
-  - apiVersion: v2
-    appVersion: 0.6.0+legacy
-    created: "2026-04-14T15:09:15.82873775+02:00"
-    description: A Helm chart for Ceph CSI drivers
-    digest: f0701afacfae6ece322d1c402aeaf39bb3916b762ca5470a5275c4a39a8ae040
-    name: ceph-csi-drivers
-    type: application
-    urls:
-    - https://scaedufax.github.io/ceph-csi-operator/charts/ceph-csi-drivers-0.6.0.tgz
-    version: 0.6.0
-  - apiVersion: v2
-    appVersion: 0.6.0-legacy
-    created: "2026-04-14T15:09:15.827634206+02:00"
-    description: A Helm chart for Ceph CSI drivers
-    digest: 2d579941b99ff4c29a638fb62fe15c05a7832aa0be5ad22319acfe71b3a57d6e
-    name: ceph-csi-drivers
-    type: application
-    urls:
-    - https://scaedufax.github.io/ceph-csi-operator/charts/ceph-csi-drivers-0.6.0-legacy.tgz
-    version: 0.6.0-legacy
   ceph-csi-operator:
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2026-04-14T15:09:15.837264189+02:00"
+    created: "2026-04-16T11:46:07.909699827+02:00"
     description: A Helm chart to distribute the project ceph-csi-operator
     digest: 39dfc20608d9ad56c83f16d0199b7264d606aed89e4ccc314883e57bfc9bd7c5
     name: ceph-csi-operator
@@ -42,24 +22,4 @@ entries:
     urls:
     - https://scaedufax.github.io/ceph-csi-operator/charts/ceph-csi-operator-0.6.0+legacy.tgz
     version: 0.6.0+legacy
-  - apiVersion: v2
-    appVersion: 0.6.0+legacy
-    created: "2026-04-14T15:09:15.853157411+02:00"
-    description: A Helm chart to distribute the project ceph-csi-operator
-    digest: d0162a4e8986b089aadba2ded3515887f6d68d7800dc93aac8f4f439dd22b726
-    name: ceph-csi-operator
-    type: application
-    urls:
-    - https://scaedufax.github.io/ceph-csi-operator/charts/ceph-csi-operator-0.6.0.tgz
-    version: 0.6.0
-  - apiVersion: v2
-    appVersion: 0.6.0-legacy
-    created: "2026-04-14T15:09:15.845263172+02:00"
-    description: A Helm chart to distribute the project ceph-csi-operator
-    digest: 571770725ef197a84534ecd676d3614a654091a721ac3e39001ea70239f1b5cb
-    name: ceph-csi-operator
-    type: application
-    urls:
-    - https://scaedufax.github.io/ceph-csi-operator/charts/ceph-csi-operator-0.6.0-legacy.tgz
-    version: 0.6.0-legacy
-generated: "2026-04-14T15:09:15.82531166+02:00"
+generated: "2026-04-16T11:46:07.89767545+02:00"
